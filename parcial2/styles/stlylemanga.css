@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    overflow: hidden;
+    background: rgb(36, 2, 2);
+}
+
+/*estilos para el menu*/
+.superior{
+    background: rgb(10, 1, 1);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.logo{
+    float: left;
+    width: 950px;
+    height: 105px;
+    background-image: url(img/manga\ 2\ recortada.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.menu{
+    float: right;
+    padding: 40px 50px 0px 0px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+.opciones li a:hover{
+    background: rgb(112, 4, 4);
+}
+
+/*estilo de slider*/
+.slider{
+    width: 100%;
+    height: auto;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    80% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+.titulo {
+    position: absolute;
+}
+
+.titulo img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 160px 0px 0px 100px;
+}
+
+.titulo h1{
+    float: left;
+    font-size: 45px;
+    font-family: tahoma;
+    color: rgb(255, 255, 255);
+    padding: 280px 0px 0px 30px;
+}
+
+/*estilos del footer*/
+.pie{
+    background: rgb(10, 3, 3);
+    overflow: hidden;
+}
+
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+.derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+
+.abajo{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+
+.derechos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
