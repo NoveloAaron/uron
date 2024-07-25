@@ -1,0 +1,57 @@
+body{
+  background: purple;
+}
+
+.color1{
+  background: rgb(196, 97, 191);
+}
+
+.color2{
+  background: gold;
+}
+
+nav {
+  width: 300px;
+  border: 0px black;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  background: rgb(196, 97, 191);
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.menu a:hover {
+  background: grey;
+}
+
+.regresar a {
+  display: inline-block;
+  height: none;
+  background: rgb(196, 97, 191);
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+}
+
+.regresar a:hover {
+  background-color: grey;
+}
+
+table {
+  border: black 1px solid;
+  border-collapse: collapse;
+}
+ tr, td {
+  border: black 1px solid;
+ }
